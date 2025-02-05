@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" contents="width=device-width,
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <div id="about" class="w-full px-[12%] py-10">
+    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
         <h4 class="text-center mb-2 text-lg">
             Introduction
         </h4>
@@ -82,21 +82,57 @@
         <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
             <div class="max-w-max mx-auto relative">
                 <img src="./port images/aboutme pic.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
+
+                <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_8px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
+                    <img src="./port images/rounded text.png" alt="" class="h-full w-full">
+                    <img src="./port images/FS developer_processed.png" alt="" class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                </div>
             </div>
             <div class="flex-1"><p class="mb-10 max-w-2xl">Dewna Udaththapola, an 18-year-old software engineering student, is passionate about solving real-world problems through technology. With a solid foundation in programming, web development, and mobile applications, she enjoys designing and building user-friendly, innovative, and impactful solutions. Known for being detail-oriented and dedicated, Dewna is always eager to learn new technologies and expand her skills in the ever-evolving tech industry. She thrives on tackling challenges and contributing to meaningful projects, aiming to build a successful career in software engineering while making a positive difference in the world.</p>
-            <ul>
-                <li class=" my-4 border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 hover:shadow-[4px_4px_0_#000]">
+            <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+                <li class=" my-4 border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
                     <img src="./port images/code icon_processed.png" alt="" class="w-7 mt-3">
                     <h3 class="my-4 font-semibold text-gray-800 ">Languages</h3>
                     <p class="text-gray-600 text-sm">HTML, CSS, JavaScript, React Js, Next Js, PHP, C, C++, Python, Kotlin</p>
                 </li>
-                <li class=" my-4 border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 hover:shadow-[4px_4px_0_#000]">
-                    <img src="./port images/code icon_processed.png" alt="" class="w-7 mt-3">
-                    <h3 class="my-4 font-semibold text-gray-800 ">Languages</h3>
-                    <p class="text-gray-600 text-sm">HTML, CSS, JavaScript, React Js, Next Js, PHP, C, C++, Python, Kotlin</p>
+                <li class=" my-4 border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                    <img src="./port images/edu icon_processed.png" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-800 ">Education</h3>
+                    <p class="text-gray-600 text-sm">Ordinary Level, Advanced Level, BSc (Hons) in Information Technology (undergraduate)</p>
+                </li>
+                <li class=" my-4 border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                    <img src="./port images/project icon_processed.png" alt="" class="w-7 mt-3">
+                    <h3 class="my-4 font-semibold text-gray-800 ">Projects</h3>
+                    <p class="text-gray-600 text-sm">Built more than 5 projects</p>
                 </li>
                 
-            </ul></div>
+            </ul>
+            <h4 class="my-6 text-gray-700">Tools i use</h4>
+
+            <ul class="flex w-full flex-col lg:flex-row items-center gap-5 my-5">
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/vscode_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/github_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/postman_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/git_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/firebase_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/figma_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300 hover:shadow-[2px_2px_0_#808080]">
+                    <img src="./port images/google cloud_processed.png" alt="" class="w-5 sm:w-7">
+                </li>
+            </ul>
+        </div>
         </div>
     </div>
 
